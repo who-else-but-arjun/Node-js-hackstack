@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f3f3;
+}
+
+header {
+    background-color: #1b1b1b;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+main {
+    padding: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form input[type="text"],
+form textarea,
+form button {
+    padding: 12px;
+    margin: 8px 0;
+    width: calc(100% - 24px);
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    transition: border-color 0.3s ease-in-out;
+}
+
+form input[type="text"]:focus,
+form textarea:focus {
+    border-color: #ff9900;
+}
+
+form input[type="file"] {
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #fff;
+    transition: border-color 0.3s ease-in-out;
+}
+
+form input[type="file"]:focus {
+    border-color: #ff9900;
+}
+
+form button {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+form button:hover {
+    background-color: #e68a00;
+}
+
+ul.product-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li.product-item {
+    background-color: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    display: flex;
+    transition: transform 0.3s ease-in-out;
+}
+
+li.product-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    flex: 0 0 auto;
+    margin-right: 20px;
+}
+
+.product-image img {
+    max-width: 150px;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-details {
+    flex: 1 1 auto;
+}
+
+.product-details h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.product-details .price {
+    font-weight: bold;
+    color: #ff9900;
+    font-size: 18px;
+}
+
+.product-details .description {
+    color: #333;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #232f3e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
